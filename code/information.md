@@ -8,4 +8,4 @@ This approach extends reinforcement learning by using a deep neural network to p
 
 ## Note
 ### Model (PyTorch)
-Linear_QNet(DQN) --> It is a feed forward neural network 
+Linear_QNet(DQN) --> It is a feed forward neural network with few linear layers
