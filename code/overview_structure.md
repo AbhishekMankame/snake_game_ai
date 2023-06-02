@@ -46,3 +46,4 @@ Q Value = Quality of action
 2. Perform action        (or random move)
 3. Measure reward
 4. Update Q value (+ train model)
+Repeat the steps 1 to 4
