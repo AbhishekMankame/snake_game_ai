@@ -12,3 +12,7 @@ Training:
 - new_state = get_state(game)
 - remember
 - model.train()
+
+## Game(Pygame)
+- play_step(action)
+    -> reward, game_over, score
