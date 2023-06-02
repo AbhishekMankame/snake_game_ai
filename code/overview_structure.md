@@ -41,3 +41,6 @@ Linear_QNet(DQN)
 
 ## (Deep) Q Learning
 Q Value = Quality of action
+0. Init Q Value (= init model)
+1. Choose action (model.predict(state))
+2. Perform action        (or random move)
