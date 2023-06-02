@@ -5,3 +5,7 @@ Reinforcement Learning is teaching a software agent how to behave in an environm
 
 ## Deep Q Learning
 This approach extends reinforcement learning by using a deep neural network to predict the actions.
+
+## Note
+### Model (PyTorch)
+Linear_QNet(DQN) --> It is a feed forward neural network 
