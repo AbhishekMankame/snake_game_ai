@@ -16,3 +16,8 @@ Training:
 ## Game(Pygame)
 - play_step(action)
     -> reward, game_over, score
+
+## Model(PyTorch)
+Linear_QNet(DQN)
+- model.predict(state)
+    -> action
