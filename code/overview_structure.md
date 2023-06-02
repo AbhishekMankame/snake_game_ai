@@ -37,3 +37,6 @@ Linear_QNet(DQN)
 
 ## state(11 values)
 [danger state, danger right, danger left, direction left, direction right, direction up, direction down, food left, food right, food up, food down]
+
+
+## (Deep) Q Learning
