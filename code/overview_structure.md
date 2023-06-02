@@ -44,3 +44,5 @@ Q Value = Quality of action
 0. Init Q Value (= init model)
 1. Choose action (model.predict(state))
 2. Perform action        (or random move)
+3. Measure reward
+4. Update Q value (+ train model)
