@@ -28,3 +28,8 @@ Linear_QNet(DQN)
 - eat food: +10
 - game over: -10
 - else: 0
+
+## Action
+[1,0,0] -> straight
+[0,1,0] -> right turn
+[0,0,1] -> left turn
