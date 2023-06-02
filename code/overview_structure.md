@@ -47,3 +47,5 @@ Q Value = Quality of action
 3. Measure reward
 4. Update Q value (+ train model)
 Repeat the steps 1 to 4
+
+## Bellman Equation:
