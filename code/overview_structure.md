@@ -33,3 +33,7 @@ Linear_QNet(DQN)
 [1,0,0] -> straight
 [0,1,0] -> right turn
 [0,0,1] -> left turn
+
+
+## state(11 values)
+[danger state, danger right, danger left, direction left, direction right, direction up, direction down, food left, food right, food up, food down]
