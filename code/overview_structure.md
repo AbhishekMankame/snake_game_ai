@@ -21,3 +21,10 @@ Training:
 Linear_QNet(DQN)
 - model.predict(state)
     -> action
+
+
+# Later section
+## Reward
+- eat food: +10
+- game over: -10
+- else: 0
