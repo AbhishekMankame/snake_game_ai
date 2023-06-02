@@ -40,3 +40,4 @@ Linear_QNet(DQN)
 
 
 ## (Deep) Q Learning
+Q Value = Quality of action
