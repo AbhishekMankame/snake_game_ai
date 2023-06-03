@@ -78,6 +78,7 @@ class SnakeGameAI:
         self.snake.insert(0, self.head)
         
         # 3. check if game over
+        reward = 0
         game_over = False
         if self._is_collision():
             game_over = True
