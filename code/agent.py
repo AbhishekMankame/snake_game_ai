@@ -16,3 +16,4 @@ class Agent:
         pass
 
     def remember(self, state, action, reward, next_state, done):
+        pass
