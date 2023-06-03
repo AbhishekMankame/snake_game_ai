@@ -126,6 +126,7 @@ class SnakeGameAI:
         pygame.display.flip()
         
     def _move(self, action):
+        # [straight, right, left]
         x = self.head.x
         y = self.head.y
         if direction == Direction.RIGHT:
