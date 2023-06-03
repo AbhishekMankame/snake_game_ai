@@ -74,7 +74,7 @@ class SnakeGameAI:
 
         
         # 2. move
-        self._move(self.direction) # update the head
+        self._move(action) # update the head
         self.snake.insert(0, self.head)
         
         # 3. check if game over
