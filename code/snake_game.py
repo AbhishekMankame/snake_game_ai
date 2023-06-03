@@ -138,7 +138,7 @@ class SnakeGameAI:
             new_dir = clock_wise[next_idx] # right turn r -> d -> l -> u
         else: # [0,0,1]
             next_idx = (idx - 1)%4
-            new_dir = clock_wise[next_idx] # left turn l -> u -> r -> d
+            new_dir = clock_wise[next_idx] # left turn r -> u -> l -> d
 
         x = self.head.x
         y = self.head.y
