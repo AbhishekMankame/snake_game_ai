@@ -127,6 +127,7 @@ class SnakeGameAI:
         
     def _move(self, action):
         # [straight, right, left]
+        clock_wise = [Direction.RIGHT, Direction.DOWN, Direction.LEFT, Direction.UP]
         x = self.head.x
         y = self.head.y
         if direction == Direction.RIGHT:
