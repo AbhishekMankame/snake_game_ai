@@ -11,6 +11,7 @@ LR = 0.001
 class Agent:
     def __init__(self):
         self.n_games = 0
+        self.epsilon = 0
 
     def get_state(self, game):
         pass
