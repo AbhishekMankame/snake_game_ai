@@ -51,7 +51,7 @@ def train():
         state_new = agent.get_state(game)
 
         # train short memory
-        agent.train_short_memory()
+        agent.train_short_memory(state_old, final_move, reward, state_new, done)
 
 if __name__ == '__main__':
     train()
