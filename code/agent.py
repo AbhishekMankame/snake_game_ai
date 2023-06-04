@@ -48,7 +48,7 @@ def train():
 
         # perform move and get new state
         reward, done, score = game.play(final_move)
-        state_old = agent.get_state(game)
+        state_new = agent.get_state(game)
 
 if __name__ == '__main__':
     train()
