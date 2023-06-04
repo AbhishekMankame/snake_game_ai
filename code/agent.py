@@ -37,7 +37,8 @@ def train():
     plot_mean_score = []
     total_score = 0
     record = 0
-    
+    agent = Agent()
+    game = SnakeGameAI()
 
 if __name__ == '__main__':
     train()
