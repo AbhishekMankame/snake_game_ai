@@ -23,3 +23,6 @@ class Agent:
 
     def train_short_memory(self):
         pass
+
+    if __name__ == '__main__':
+        train()
