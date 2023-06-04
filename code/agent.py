@@ -19,6 +19,10 @@ class Agent:
 
     def get_state(self, game):
         head = game.snake[0]
+        point_l = Point(head.x - 20, head.y)
+        point_r = Point(head.x + 20, head.y)
+        
+
 
     def get_state(self, game):
         pass
