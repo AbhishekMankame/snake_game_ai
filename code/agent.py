@@ -18,6 +18,9 @@ class Agent:
         # TODO: model, trainer
 
     def get_state(self, game):
+        head = game.snake[0]
+
+    def get_state(self, game):
         pass
 
     def remember(self, state, action, reward, next_state, done):
