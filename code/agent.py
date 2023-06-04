@@ -26,7 +26,7 @@ class Agent:
     def train_long_memory(self):
         pass
 
-    def train_short_memory(self):
+    def train_short_memory(self, state, action, reward, next_state, done):
         pass
 
     def get_action(self, state):
@@ -49,6 +49,9 @@ def train():
         # perform move and get new state
         reward, done, score = game.play(final_move)
         state_new = agent.get_state(game)
+
+        # train short memory
+        agent.train_short_memory()
 
 if __name__ == '__main__':
     train()
