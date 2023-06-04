@@ -41,3 +41,4 @@ class QTrainer:
 
         if len(state.shape) == 1:
             # (1, x) --> append one dimension
+            state = torch.unsqueeze(state, 0)
