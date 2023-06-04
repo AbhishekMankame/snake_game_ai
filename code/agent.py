@@ -65,8 +65,8 @@ class Agent:
         return np.array(state, dtype = int)
 
 
-    def get_state(self, game):
-        pass
+    # def get_state(self, game):
+    #     pass
 
     def remember(self, state, action, reward, next_state, done):
         pass
