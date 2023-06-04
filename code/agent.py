@@ -32,6 +32,8 @@ class Agent:
     def get_action(self, state):
         pass
 
+def train():
+    pass
 
-    if __name__ == '__main__':
-        train()
+if __name__ == '__main__':
+    train()
