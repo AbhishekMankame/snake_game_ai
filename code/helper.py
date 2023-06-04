@@ -10,3 +10,6 @@ def plot(scores, mean_scores):
     plt.title('Training...')
     plt.xlabel('Number of Games')
     plt.ylabel('Score')
+    plt.plot(scores)
+    plt.plot(mean_scores)
+    plt.ylim(ymin=0)
