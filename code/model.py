@@ -30,3 +30,4 @@ class QTrainer:
         self.gamma = gamma
         self.model = model
         self.optimizer = optim.Adam(model.parameters(), lr = self.lr)
+        self.criterion = nn.MSELoss()
