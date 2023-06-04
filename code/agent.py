@@ -59,6 +59,12 @@ def train():
         if done:
             # train long memory, plot result
             game.reset()
+            agent.n_games += 1
+            agent.train_long_memory()
+
+            if score > record:
+                record = score
+                # 
 
 if __name__ == '__main__':
     train()
