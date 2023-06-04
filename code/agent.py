@@ -33,7 +33,7 @@ class Agent:
         pass
 
 def train():
-    pass
+    plot_scores = []
 
 if __name__ == '__main__':
     train()
