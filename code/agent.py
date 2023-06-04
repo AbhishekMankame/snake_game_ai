@@ -39,6 +39,9 @@ def train():
     record = 0
     agent = Agent()
     game = SnakeGameAI()
+    while True:
+        # get the old state or current state
+        state_old = agent.get_state(game)
 
 if __name__ == '__main__':
     train()
