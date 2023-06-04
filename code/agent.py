@@ -70,7 +70,7 @@ class Agent:
     #     pass
 
     def remember(self, state, action, reward, next_state, done):
-        self.memory.append(state, action, reward, next_state, done) # pop_left if MAX_MEMORY is reached
+        self.memory.append((state, action, reward, next_state, done)) # pop_left if MAX_MEMORY is reached
 
     def train_long_memory(self):
         if len(self.memory) < BATCH_SIZE:
