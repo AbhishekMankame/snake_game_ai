@@ -34,6 +34,10 @@ class Agent:
 
 def train():
     plot_scores = []
+    plot_mean_score = []
+    total_score = 0
+    record = 0
+    
 
 if __name__ == '__main__':
     train()
