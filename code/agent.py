@@ -29,5 +29,9 @@ class Agent:
     def train_short_memory(self):
         pass
 
+    def get_action(self, state):
+        pass
+
+
     if __name__ == '__main__':
         train()
