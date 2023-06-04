@@ -43,3 +43,4 @@ class QTrainer:
             # (1, x) --> append one dimension
             state = torch.unsqueeze(state, 0)
             next_state = torch.unsqueeze(next_state, 0)
+            action = torch.unsqueeze(action, 0)
