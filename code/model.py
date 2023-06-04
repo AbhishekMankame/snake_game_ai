@@ -62,3 +62,4 @@ class QTrainer:
         # 2: Q_new = r + y * max(next_predicted Q value) --> only do this if not done
         # pred.clone()
         # preds[argmax(action)] = Q_new
+        self.optimizer.zero_grad()
