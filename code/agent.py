@@ -53,5 +53,8 @@ def train():
         # train short memory
         agent.train_short_memory(state_old, final_move, reward, state_new, done)
 
+        # remember
+        agent.remember(state_old, final_move, reward, state_new, done)
+
 if __name__ == '__main__':
     train()
