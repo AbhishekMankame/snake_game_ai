@@ -37,3 +37,7 @@ class QTrainer:
         next_state = torch.tensor(next_state, dtype=torch.float)
         action = torch.tensor(action, dtype=torch.long)
         reward = torch.tensor(reward, dtype=torch.float)
+        # (n, x)
+
+        if len(state.shape) == 1:
+            # (1, x) --> append one dimension
