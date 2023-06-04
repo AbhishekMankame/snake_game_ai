@@ -44,7 +44,7 @@ def train():
         state_old = agent.get_state(game)
 
         # get move
-        final_move = agent.get_action()
+        final_move = agent.get_action(state_old)
 
 if __name__ == '__main__':
     train()
