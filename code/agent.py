@@ -99,6 +99,8 @@ class Agent:
         else:
             state0 = torch.tensor(state, dtype=torch.float)
             prediction = self.model.predict(state0)
+            move = torch.argmax(prediction).item()
+            final_move[move] = 1
 
 def train():
     plot_scores = []
