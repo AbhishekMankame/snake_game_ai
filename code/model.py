@@ -33,4 +33,4 @@ class QTrainer:
         self.criterion = nn.MSELoss()
 
     def train_step(self, state, action, reward, next_state, done):
-        pass
+        state = torch.tensor(state, dtype=torch.float)
