@@ -14,6 +14,7 @@ class Agent:
         self.epsilon = 0 # randpmness
         self.gamma = 0 # discount rate
         self.memory = deque(maxlen=MAX_MEMORY) # popleft()
+        self.model = None # TODO
 
         # TODO: model, trainer
 
