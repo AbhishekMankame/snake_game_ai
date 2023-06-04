@@ -73,7 +73,8 @@ class Agent:
         self.memory.append(state, action, reward, next_state, done) # pop_left if MAX_MEMORY is reached
 
     def train_long_memory(self):
-        pass
+        if len(self.memory) < BATCH_SIZE:
+            mini_sample = random.sample
 
     def train_short_memory(self, state, action, reward, next_state, done):
         self.trainer.train_step(state, action, reward, next_state, done)
