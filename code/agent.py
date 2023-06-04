@@ -62,6 +62,7 @@ class Agent:
 
 
         ]
+        return np.array(state, dtype = int)
 
 
     def get_state(self, game):
