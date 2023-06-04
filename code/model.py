@@ -50,5 +50,5 @@ class QTrainer:
         # 1: predicted Q values with current state
         pred == self.model(state)
 
-        # 2: r + y * max(next_predicted Q value)
+        # 2: Q_new = r + y * max(next_predicted Q value)
         # pred.clone()
