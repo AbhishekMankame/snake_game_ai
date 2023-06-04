@@ -69,7 +69,7 @@ class Agent:
     #     pass
 
     def remember(self, state, action, reward, next_state, done):
-        pass
+        self.memory.append()
 
     def train_long_memory(self):
         pass
