@@ -17,7 +17,6 @@ class Agent:
         self.model = None # TODO
         self.trainer = None # TODO
 
-        # TODO: model, trainer
 
     def get_state(self, game):
         head = game.snake[0]
