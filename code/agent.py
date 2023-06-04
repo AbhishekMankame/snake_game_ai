@@ -67,6 +67,7 @@ def train():
                 # agent.model.save()
 
             print('Game', agent.n_games, 'Score', score, 'Record:', record)
+            # TODO: plot
 
 if __name__ == '__main__':
     train()
