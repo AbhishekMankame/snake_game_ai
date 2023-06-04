@@ -24,6 +24,11 @@ class Agent:
         point_u = Point(head.x, head.y - 20)
         point_d = Point(head.x, head.y + 20)
 
+        dir_l = game.direction == Direction.LEFT
+        dir_r = game.direction == Direction.RIGHT
+        dir_u = game.direction == Direction.UP
+        dir_d = game.direction == Direction.DOWN
+
 
     def get_state(self, game):
         pass
