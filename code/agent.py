@@ -56,5 +56,8 @@ def train():
         # remember
         agent.remember(state_old, final_move, reward, state_new, done)
 
+        if done:
+            # train long memory
+
 if __name__ == '__main__':
     train()
