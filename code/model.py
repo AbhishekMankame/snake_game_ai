@@ -15,4 +15,5 @@ class Linear_QNet(nn.Module):
         x = self.linear2(x)
         return x
     
-    def save(self, file_name='model.pth')
+    def save(self, file_name='model.pth'):
+        model_folder_path = './model'
