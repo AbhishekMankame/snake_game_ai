@@ -52,3 +52,4 @@ class QTrainer:
 
         # 2: Q_new = r + y * max(next_predicted Q value)
         # pred.clone()
+        # preds[argmax(action)] = Q_new
