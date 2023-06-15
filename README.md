@@ -1,2 +1,2 @@
 # snake_game_ai
-Building an AI to play the snake game using Reinforcement Learning
+Building an AI algorithm to play the snake game using Reinforcement Learning
